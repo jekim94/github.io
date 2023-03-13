@@ -4,22 +4,12 @@ main:
     url: "/"
   - title: "Category"
     url: "/categories/"
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "Posts"
+    url: "/year-archive/"
 
   # sidebar navigation list sample
-sidebarTest:
-  - title: "Parent Page A"
-    children:
-      - title: "Child Page A1"
-        url: /
-      - title: "Child Page A2"
-        url: /
-      - title: "Child Page A3"
-        url: /
-      - title: "Child Page A4"
-        url: /
+# sidebar-category:
+#   - title: "GIT"
+#     children:
+#       - title: "Child Page A1"
+#         url: "/GithubBlog"

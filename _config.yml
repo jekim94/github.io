@@ -287,7 +287,7 @@ defaults:
       layout: single
       author_profile: true
       sidebar:
-        nav: "sidebarTest"
+        nav: "sidebar-category"
       read_time: true
       comments: # true
       share: true
