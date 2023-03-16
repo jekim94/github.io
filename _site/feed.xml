@@ -1,3 +1,113 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-03-13T10:19:36+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">✍ 기록하는 개발자 Blog</title><subtitle>기록하자!!</subtitle><author><name>JJeongEun</name></author><entry><title type="html">GithubBlog 세팅하기!!</title><link href="http://localhost:4000/githubblog/GithubBlog-%EC%84%B8%ED%8C%85/" rel="alternate" type="text/html" title="GithubBlog 세팅하기!!" /><published>2023-03-13T00:00:00+09:00</published><updated>2023-03-13T00:00:00+09:00</updated><id>http://localhost:4000/githubblog/GithubBlog-%EC%84%B8%ED%8C%85</id><content type="html" xml:base="http://localhost:4000/githubblog/GithubBlog-%EC%84%B8%ED%8C%85/"><![CDATA[<p class="notice--primary">📌 <strong>개발 환경</strong> <br />
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-03-16T17:02:45+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">✍ 기록하는 개발자 Blog</title><subtitle>기록하자!!</subtitle><author><name>JJeong</name></author><entry><title type="html">Github Blog 시작하기!!</title><link href="http://localhost:4000/githubblog/GithubBlog-Start1/" rel="alternate" type="text/html" title="Github Blog 시작하기!!" /><published>2023-03-13T00:00:00+09:00</published><updated>2023-03-13T00:00:00+09:00</updated><id>http://localhost:4000/githubblog/GithubBlog-Start1</id><content type="html" xml:base="http://localhost:4000/githubblog/GithubBlog-Start1/"><![CDATA[<p class="notice--info">❗️ <strong>개발 환경</strong> <br />
 <strong>OS</strong> : M1<br />
-<strong>Tool</strong> : Visual Studio Code<br /></p>]]></content><author><name>JJeongEun</name></author><category term="GithubBlog" /><category term="minimal mistakes" /><category term="jekyll" /><category term="blog" /><summary type="html"><![CDATA[📌 개발 환경 OS : M1 Tool : Visual Studio Code]]></summary></entry></feed>
+<strong>Tool</strong> : Visual Studio Code<br /></p>
+
+<p>Github Blog 세팅 방법을 적어보려합니다 👏 <br />
+<br /></p>
+
+<h1 id="github-레파지토리-생성하기">Github 레파지토리 생성하기</h1>
+<p><a href="https://github.com/">Github</a> (계정이 없다면 회원가입)</p>
+
+<ol>
+  <li>Repository 생성하기 <br />
+    <ul>
+      <li>우측 상단에 내 프로필 클릭 &gt; <em>Your repositories</em> 클릭 &gt; <em>New</em> 버튼 클릭 <br />
+<img src="https://user-images.githubusercontent.com/84657150/225246550-60c5e491-5c0b-4d23-a535-ab4d5de92671.png" alt="image" width="100%" height="80%" /></li>
+      <li>아래 이미지와 같이 입력한 후 <em>Create repository</em> 클릭!! <br />
+<img src="https://user-images.githubusercontent.com/84657150/225506287-9eabbd19-eb1d-4c6f-8c27-a232fbed842e.png" alt="image" width="100%" height="80%" /></li>
+    </ul>
+  </li>
+  <li>내 로컬 폴더에 생성한 레파지토리 연결하기 <br />
+    <ul>
+      <li>HTTPS 주소 복사 <br />
+<img src="https://user-images.githubusercontent.com/84657150/225270929-82e81646-bcc7-4aae-8edf-d105a2f6fd18.png" alt="image" width="100%" height="80%" /></li>
+      <li>내 컴퓨터에 신규 폴더 생성 및 git 레파지토리 clone 하기 <br />
+( 터미널을 켠 후 <code class="language-plaintext highlighter-rouge">cd 로컬 폴더 주소</code> &gt; <code class="language-plaintext highlighter-rouge">git clone 복사한 주소</code> ) <br />
+git config 관련해서는 무시하기 (특정 계정으로 연동 하고싶을 때 사용하는 것으로 자세한 부분은 여기로!!) <br />
+<img src="https://user-images.githubusercontent.com/84657150/225491967-fc20fe14-5620-4471-a840-da7a1efec8e0.png" alt="image" width="100%" height="80%" /></li>
+      <li>신규 파일 생성하기 <br />
+( 터미널을 켠 후 <code class="language-plaintext highlighter-rouge">cd 로컬 폴더 주소</code> &gt; <code class="language-plaintext highlighter-rouge">echo "Hello GithubBlog" &gt; index.html</code> ) <br />
+<img src="https://user-images.githubusercontent.com/84657150/225496732-079b72d4-2582-4550-b0b4-be6516d012b6.png" alt="image" width="100%" height="80%" /></li>
+      <li>레파지토리에 최초 푸시하기 <br />
+( 터미널을 켠 후 <code class="language-plaintext highlighter-rouge">git add .</code> &gt; <code class="language-plaintext highlighter-rouge">git commit -m "init"</code> &gt; <code class="language-plaintext highlighter-rouge">git push -u origin main</code> ) <br />
+<img src="https://user-images.githubusercontent.com/84657150/225502895-81710874-676e-4b59-a042-5db0ec269d6b.png" alt="image" width="100%" height="80%" />
+<br />
+<br /></li>
+    </ul>
+  </li>
+</ol>
+
+<h1 id="jekyll-테마-적용하기">jekyll 테마 적용하기</h1>
+<p><a href="http://jekyllthemes.org/">jekyll</a> 사이트에서 마음에 드는 테마 선택하기!! <br />
+내가 선택한 테마는 <a href="http://jekyllthemes.org/themes/minimal-mistakes/">minimal-mistakes</a>, Download 버튼을 눌러 소스 zip 파일을 내려받기 <br /></p>
+
+<ol>
+  <li>
+    <p>압축 푼 후 해당 파일 삭제 <br />
+<img src="https://user-images.githubusercontent.com/84657150/225529132-225d0e10-d042-458a-a069-79256ac8d090.png" alt="image" width="100%" height="80%" /></p>
+  </li>
+  <li>
+    <p>docs 폴더 안에 해당 파일 상위로 이동 <br />
+<img src="https://user-images.githubusercontent.com/84657150/225529298-94cd10bd-76de-48e5-9651-2674ed696646.png" alt="image" width="100%" height="80%" /></p>
+  </li>
+  <li>
+    <p>docs 폴더 삭제 및 최종 파일 구조 <br />
+( image 폴더 안에 내용은 모두 삭제해도 됨 )
+<img src="https://user-images.githubusercontent.com/84657150/225529957-9036bdc4-ffd6-4ddb-869e-ee06d8ae76d8.png" alt="image" width="100%" height="80%" /></p>
+  </li>
+  <li>Homebrew 로 rudy (rbenv) 설치 <br />
+( 만약 설치가 안되어 있다면 <a href="https://brew.sh/index_ko">Homebrew</a> 설치 ) <br />
+    <ul>
+      <li>brew 통하여 rbenv 설치하기 및 <strong>rbenv path를 추가</strong> ( 중요 ) <br />
+        <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="c"># 설치</span>
+ brew update
+ brew <span class="nb">install </span>rbenv  
+
+ <span class="c"># 설치 확인</span>
+ rbenv versions
+
+ <span class="c"># 설치된 ruby들이 나오고, 선택된 루비가 표시됨</span>
+ <span class="k">*</span>system <span class="o">(</span><span class="nb">set </span>by /Users/yozi/.rbenv/version<span class="o">)</span>
+   3.1.2
+
+ <span class="c"># 여기서 global ruby로 선택을 변경</span>
+ rbenv global 3.1.2
+
+ <span class="c"># ~/.zshrc 편집</span>
+ vi ~/.zshrc
+
+ <span class="c"># i 입력모드로 붙여넣은 후 :wq 저장하기</span>
+ <span class="o">[[</span> <span class="nt">-d</span> ~/.rbenv  <span class="o">]]</span> <span class="o">&amp;&amp;</span> <span class="se">\</span>
+   <span class="nb">export </span><span class="nv">PATH</span><span class="o">=</span><span class="k">${</span><span class="nv">HOME</span><span class="k">}</span>/.rbenv/bin:<span class="k">${</span><span class="nv">PATH</span><span class="k">}</span> <span class="o">&amp;&amp;</span> <span class="se">\</span>
+   <span class="nb">eval</span> <span class="s2">"</span><span class="si">$(</span>rbenv init -<span class="si">)</span><span class="s2">"</span>
+        
+ <span class="c"># 저장 이후 터미널에 명령어 입력</span>
+ <span class="nb">source</span> ~/.zshrc
+</code></pre></div>        </div>
+      </li>
+    </ul>
+  </li>
+  <li>bundle 명령어 실행 <br />
+( 터미널을 켠 후 <code class="language-plaintext highlighter-rouge">cd userName.github.io</code> 경로로 이동 후 실행 ) <br />
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> bundle <span class="nb">install</span>
+ <span class="c"># 로컬 실행 </span>
+ bundle <span class="nb">exec </span>jekyll serve
+</code></pre></div>    </div>
+    <p>아래와 같이 로컬 서버가 정상적으로 뜨면 성공 🙌 <br />
+<img src="https://user-images.githubusercontent.com/84657150/225548079-11a5bd3c-4b04-4995-b057-d666a1e7093f.png" alt="image" width="100%" height="80%" /></p>
+  </li>
+  <li>소스 푸시하기!! <br />
+( 터미널을 켠 후 <code class="language-plaintext highlighter-rouge">cd userName.github.io</code> 경로로 이동 후 실행 ) <br />
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> git add <span class="nb">.</span> 
+ git commit <span class="nt">-m</span> <span class="s2">"테마적용"</span>
+ git push
+</code></pre></div>    </div>
+    <p><br /></p>
+  </li>
+</ol>
+
+<h1 id="참고-사이트">참고 사이트</h1>
+<p><a href="https://zeddios.tistory.com/1222">왕초보를 위한 Github 블로그 만들기</a> <br />
+<a href="https://blog.yozi.kr/entry/mac%EC%97%90%EC%84%9C-ruby-%EC%9E%AC%EC%84%A4%EC%A0%95%EC%84%A4%EC%B9%98-%ED%95%98%EA%B8%B0-rbenv">mac에서 ruby 설치하기</a><br /></p>
+
+<p>테마 상세 수정은 다음편에서~</p>]]></content><author><name>JJeong</name></author><category term="GithubBlog" /><category term="minimal mistakes" /><category term="jekyll" /><category term="blog" /><summary type="html"><![CDATA[❗️ 개발 환경 OS : M1 Tool : Visual Studio Code]]></summary></entry></feed>
